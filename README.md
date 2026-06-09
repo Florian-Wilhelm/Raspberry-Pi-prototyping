@@ -1,3 +1,3 @@
 ## About
 
-Prototype code.
+Prototype code. Documentation on demand.
