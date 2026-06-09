@@ -1,0 +1,1597 @@
+<html>
+<head><title>Thermal imaging</title></head>
+<body bgcolor="black" text="red">
+
+    <table width="100%">
+      	  <p>Thermal imaging with MLX90642 IR array, reading all 768 pixels. &lpar;c&rpar;<a href="https://ome-eng.net">ome&ndash;eng.net</a>.</p>
+      	  <p>Sensor temperature: <!--#text769--> degrees Celsius.</p>
+	        <tr>
+	        <th><!--#text1--></th>
+	       
+	        <th><!--#text2--></th>
+	       
+	        <th><!--#text3--></th>
+	       
+	        <th><!--#text4--></th>
+	       
+	        <th><!--#text5--></th>
+	       
+	        <th><!--#text6--></th>
+	       
+	        <th><!--#text7--></th>
+	       
+	        <th><!--#text8--></th>
+	       
+	        <th><!--#text9--></th>
+	       
+	        <th><!--#text10--></th>
+	       
+	        <th><!--#text11--></th>
+	       
+	        <th><!--#text12--></th>
+	       
+	        <th><!--#text13--></th>
+	       
+	        <th><!--#text14--></th>
+	       
+	        <th><!--#text15--></th>
+	        
+	        <th><!--#text16--></th>
+	       
+	        <th><!--#text17--></th>
+	       
+	        <th><!--#text18--></th>
+	       
+	        <th><!--#text19--></th>
+	       
+	        <th><!--#text20--></th>
+	       
+	        <th><!--#text21--></th>
+	       
+	        <th><!--#text22--></th>
+	       
+	        <th><!--#text23--></th>
+	       
+	        <th><!--#text24--></th>
+	       
+	        <th><!--#text25--></th>
+	       
+	        <th><!--#text26--></th>
+	       
+	        <th><!--#text27--></th>
+	       
+	        <th><!--#text28--></th>
+	       
+	        <th><!--#text29--></th>
+	       
+	        <th><!--#text30--></th>
+	        
+	        <th><!--#text31--></th>
+	       
+	        <th><!--#text32--></th>
+	        </tr>
+	       
+	        <tr>
+	        <th><!--#text33--></th>
+	       
+	        <th><!--#text34--></th>
+	       
+	        <th><!--#text35--></th>
+	       
+	        <th><!--#text36--></th>
+	       
+	        <th><!--#text37--></th>
+	       
+	        <th><!--#text38--></th>
+	       
+	        <th><!--#text39--></th>
+	       
+	        <th><!--#text40--></th>
+	       
+	        <th><!--#text41--></th>
+	       
+	        <th><!--#text42--></th>
+	       
+	        <th><!--#text43--></th>
+	       
+	        <th><!--#text44--></th>
+	       
+	        <th><!--#text45--></th>
+	        
+	        <th><!--#text46--></th>
+	       
+	        <th><!--#text47--></th>
+	       
+	        <th><!--#text48--></th>
+	       
+	        <th><!--#text49--></th>
+	       
+	        <th><!--#text50--></th>
+	       
+	        <th><!--#text51--></th>
+	       
+	        <th><!--#text52--></th>
+	       
+	        <th><!--#text53--></th>
+	       
+	        <th><!--#text54--></th>
+	       
+	        <th><!--#text55--></th>
+	       
+	        <th><!--#text56--></th>
+	       
+	        <th><!--#text57--></th>
+	       
+	        <th><!--#text58--></th>
+	       
+	        <th><!--#text59--></th>
+	       
+	        <th><!--#text60--></th>
+	       
+	        <th><!--#text61--></th>
+	       
+	        <th><!--#text62--></th>
+	       
+	        <th><!--#text63--></th>
+	       
+	        <th><!--#text64--></th>
+	        </tr>
+	        
+	        <tr>	       
+	        <th><!--#text65--></th>
+	       
+	        <th><!--#text66--></th>
+	       
+	        <th><!--#text67--></th>
+	       
+	        <th><!--#text68--></th>
+	       
+	        <th><!--#text69--></th>
+	       
+	        <th><!--#text70--></th>
+	       
+	        <th><!--#text71--></th>
+	       
+	        <th><!--#text72--></th>
+	       
+	        <th><!--#text73--></th>
+	       
+	        <th><!--#text74--></th>
+	       
+	        <th><!--#text75--></th>
+	        
+	        <th><!--#text76--></th>
+	       
+	        <th><!--#text77--></th>
+	       
+	        <th><!--#text78--></th>
+	       
+	        <th><!--#text79--></th>
+	       
+	        <th><!--#text80--></th>
+	       
+	        <th><!--#text81--></th>
+	       
+	        <th><!--#text82--></th>
+	       
+	        <th><!--#text83--></th>
+	       
+	        <th><!--#text84--></th>
+	       
+	        <th><!--#text85--></th>
+	       
+	        <th><!--#text86--></th>
+	       
+	        <th><!--#text87--></th>
+	       
+	        <th><!--#text88--></th>
+	       
+	        <th><!--#text89--></th>
+	       
+	        <th><!--#text90--></th>
+	        
+	        <th><!--#text91--></th>
+	       
+	        <th><!--#text92--></th>
+	       
+	        <th><!--#text93--></th>
+	       
+	        <th><!--#text94--></th>
+	       
+	        <th><!--#text95--></th>
+	       
+	        <th><!--#text96--></th>
+	        </tr>
+	        
+	        <tr>	       
+	        <th><!--#text97--></th>
+	       
+	        <th><!--#text98--></th>
+	       
+	        <th><!--#text99--></th>
+	       
+	        <th><!--#text100--></th>
+	       
+	        <th><!--#text102--></th>
+	       
+	        <th><!--#text102--></th>
+	       
+	        <th><!--#text103--></th>
+	       
+	        <th><!--#text104--></th>
+	       
+	        <th><!--#text105--></th>
+	        
+	        <th><!--#text106--></th>
+	       
+	        <th><!--#text107--></th>
+	       
+	        <th><!--#text108--></th>
+	       
+	        <th><!--#text109--></th>
+	       
+	        <th><!--#text110--></th>
+	       
+	        <th><!--#text111--></th>
+	       
+	        <th><!--#text112--></th>
+	       
+	        <th><!--#text113--></th>
+	       
+	        <th><!--#text114--></th>
+	       
+	        <th><!--#text115--></th>
+	       
+	        <th><!--#text116--></th>
+	       
+	        <th><!--#text117--></th>
+	       
+	        <th><!--#text118--></th>
+	       
+	        <th><!--#text119--></th>
+	       
+	        <th><!--#text120--></th>
+	        
+	        <th><!--#text121--></th>
+	       
+	        <th><!--#text122--></th>
+	       
+	        <th><!--#text123--></th>
+	       
+	        <th><!--#text124--></th>
+	       
+	        <th><!--#text125--></th>
+	       
+	        <th><!--#text126--></th>
+	       
+	        <th><!--#text127--></th>
+	       
+	        <th><!--#text128--></th>
+	        </tr>
+	        
+	        <tr>	       
+	        <th><!--#text129--></th>
+	       
+	        <th><!--#text130--></th>
+	       
+	        <th><!--#text131--></th>
+	       
+	        <th><!--#text132--></th>
+	       
+	        <th><!--#text133--></th>
+	       
+	        <th><!--#text134--></th>
+	       
+	        <th><!--#text135--></th>
+	        
+	        <th><!--#text136--></th>
+	       
+	        <th><!--#text137--></th>
+	       
+	        <th><!--#text138--></th>
+	       
+	        <th><!--#text139--></th>
+	       
+	        <th><!--#text140--></th>
+	       
+	        <th><!--#text141--></th>
+	       
+	        <th><!--#text142--></th>
+	       
+	        <th><!--#text143--></th>
+	       
+	        <th><!--#text144--></th>
+	       
+	        <th><!--#text145--></th>
+	       
+	        <th><!--#text146--></th>
+	       
+	        <th><!--#text147--></th>
+	       
+	        <th><!--#text148--></th>
+	       
+	        <th><!--#text149--></th>
+	       
+	        <th><!--#text150--></th>
+	        
+	        <th><!--#text151--></th>
+	       
+	        <th><!--#text152--></th>
+	       
+	        <th><!--#text153--></th>
+	       
+	        <th><!--#text154--></th>
+	       
+	        <th><!--#text155--></th>
+	       
+	        <th><!--#text156--></th>
+	       
+	        <th><!--#text157--></th>
+	       
+	        <th><!--#text158--></th>
+	       
+	        <th><!--#text159--></th>
+	       
+	        <th><!--#text160--></th>
+	        </tr>
+	       
+	        <tr>
+	       
+	        <th><!--#text161--></th>
+	       
+	        <th><!--#text162--></th>
+	       
+	        <th><!--#text163--></th>
+	       
+	        <th><!--#text164--></th>
+	       
+	        <th><!--#text165--></th>
+	        
+	        <th><!--#text166--></th>
+	       
+	        <th><!--#text167--></th>
+	       
+	        <th><!--#text168--></th>
+	       
+	        <th><!--#text169--></th>
+	       
+	        <th><!--#text170--></th>
+	       
+	        <th><!--#text171--></th>
+	       
+	        <th><!--#text172--></th>
+	       
+	        <th><!--#text173--></th>
+	       
+	        <th><!--#text174--></th>
+	       
+	        <th><!--#text175--></th>
+	       
+	        <th><!--#text176--></th>
+	       
+	        <th><!--#text177--></th>
+	       
+	        <th><!--#text178--></th>
+	       
+	        <th><!--#text179--></th>
+	       
+	        <th><!--#text180--></th>
+	        
+	        <th><!--#text181--></th>
+	       
+	        <th><!--#text182--></th>
+	       
+	        <th><!--#text183--></th>
+	       
+	        <th><!--#text184--></th>
+	       
+	        <th><!--#text185--></th>
+	       
+	        <th><!--#text186--></th>
+	       
+	        <th><!--#text187--></th>
+	       
+	        <th><!--#text188--></th>
+	       
+	        <th><!--#text189--></th>
+	       
+	        <th><!--#text190--></th>
+	       
+	        <th><!--#text191--></th>
+	       
+	        <th><!--#text192--></th>
+	        </tr>
+	        
+	        <tr>	       
+	        <th><!--#text193--></th>
+	       
+	        <th><!--#text194--></th>
+	       
+	        <th><!--#text195--></th>
+	        
+	        <th><!--#text196--></th>
+	       
+	        <th><!--#text197--></th>
+	       
+	        <th><!--#text198--></th>
+	       
+	        <th><!--#text199--></th>
+	       
+	        <th><!--#text200--></th>
+	       
+	        <th><!--#text201--></th>
+	       
+	        <th><!--#text202--></th>
+	       
+	        <th><!--#text203--></th>
+	       
+	        <th><!--#text204--></th>
+	       
+	        <th><!--#text205--></th>
+	       
+	        <th><!--#text206--></th>
+	       
+	        <th><!--#text207--></th>
+	       
+	        <th><!--#text208--></th>
+	       
+	        <th><!--#text209--></th>
+	       
+	        <th><!--#text210--></th>
+	        
+	        <th><!--#text211--></th>
+	       
+	        <th><!--#text212--></th>
+	       
+	        <th><!--#text213--></th>
+	       
+	        <th><!--#text214--></th>
+	       
+	        <th><!--#text215--></th>
+	       
+	        <th><!--#text216--></th>
+	       
+	        <th><!--#text217--></th>
+	       
+	        <th><!--#text218--></th>
+	       
+	        <th><!--#text219--></th>
+	       
+	        <th><!--#text220--></th>
+	       
+	        <th><!--#text221--></th>
+	       
+	        <th><!--#text222--></th>
+	       
+	        <th><!--#text223--></th>
+	       
+	        <th><!--#text224--></th>
+	        </tr>
+	      
+	        <tr>	       
+	        <th><!--#text225--></th>
+	        
+	        <th><!--#text226--></th>
+	       
+	        <th><!--#text227--></th>
+	       
+	        <th><!--#text228--></th>
+	       
+	        <th><!--#text229--></th>
+	       
+	        <th><!--#text230--></th>
+	       
+	        <th><!--#text231--></th>
+	       
+	        <th><!--#text232--></th>
+	       
+	        <th><!--#text233--></th>
+	       
+	        <th><!--#text234--></th>
+	       
+	        <th><!--#text235--></th>
+	       
+	        <th><!--#text236--></th>
+	       
+	        <th><!--#text237--></th>
+	       
+	        <th><!--#text238--></th>
+	       
+	        <th><!--#text239--></th>
+	       
+	        <th><!--#text240--></th>
+	        
+	        <th><!--#text241--></th>
+	       
+	        <th><!--#text242--></th>
+	       
+	        <th><!--#text243--></th>
+	       
+	        <th><!--#text244--></th>
+	       
+	        <th><!--#text245--></th>
+	       
+	        <th><!--#text246--></th>
+	       
+	        <th><!--#text247--></th>
+	       
+	        <th><!--#text248--></th>
+	       
+	        <th><!--#text249--></th>
+	       
+	        <th><!--#text250--></th>
+	       
+	        <th><!--#text251--></th>
+	       
+	        <th><!--#text252--></th>
+	       
+	        <th><!--#text253--></th>
+	       
+	        <th><!--#text254--></th>
+	       
+	        <th><!--#text255--></th>
+	        
+	        <th><!--#text256--></th>
+	        </tr>
+	        
+	        <tr>	       
+	        <th><!--#text257--></th>
+	       
+	        <th><!--#text258--></th>
+	       
+	        <th><!--#text259--></th>
+	       
+	        <th><!--#text260--></th>
+	       
+	        <th><!--#text261--></th>
+	       
+	        <th><!--#text262--></th>
+	       
+	        <th><!--#text263--></th>
+	       
+	        <th><!--#text264--></th>
+	       
+	        <th><!--#text265--></th>
+	       
+	        <th><!--#text266--></th>
+	       
+	        <th><!--#text267--></th>
+	       
+	        <th><!--#text268--></th>
+	       
+	        <th><!--#text269--></th>
+	       
+	        <th><!--#text270--></th>
+	        
+	        <th><!--#text271--></th>
+	       
+	        <th><!--#text272--></th>
+	       
+	        <th><!--#text273--></th>
+	       
+	        <th><!--#text274--></th>
+	       
+	        <th><!--#text275--></th>
+	       
+	        <th><!--#text276--></th>
+	       
+	        <th><!--#text277--></th>
+	       
+	        <th><!--#text278--></th>
+	       
+	        <th><!--#text279--></th>
+	       
+	        <th><!--#text280--></th>
+	       
+	        <th><!--#text281--></th>
+	       
+	        <th><!--#text282--></th>
+	       
+	        <th><!--#text283--></th>
+	       
+	        <th><!--#text284--></th>
+	       
+	        <th><!--#text285--></th>
+	        
+	        <th><!--#text286--></th>
+	       
+	        <th><!--#text287--></th>
+	       
+	        <th><!--#text288--></th>
+	        </tr>
+	        
+	        <tr>	       
+	        <th><!--#text289--></th>
+	       
+	        <th><!--#text290--></th>
+	       
+	        <th><!--#text291--></th>
+	       
+	        <th><!--#text292--></th>
+	       
+	        <th><!--#text293--></th>
+	       
+	        <th><!--#text294--></th>
+	       
+	        <th><!--#text295--></th>
+	       
+	        <th><!--#text296--></th>
+	       
+	        <th><!--#text297--></th>
+	       
+	        <th><!--#text298--></th>
+	       
+	        <th><!--#text299--></th>
+	       
+	        <th><!--#text300--></th>
+	        
+	        <th><!--#text301--></th>
+	       
+	        <th><!--#text302--></th>
+	       
+	        <th><!--#text303--></th>
+	       
+	        <th><!--#text304--></th>
+	       
+	        <th><!--#text305--></th>
+	       
+	        <th><!--#text306--></th>
+	       
+	        <th><!--#text307--></th>
+	       
+	        <th><!--#text308--></th>
+	       
+	        <th><!--#text309--></th>
+	       
+	        <th><!--#text310--></th>
+	       
+	        <th><!--#text311--></th>
+	       
+	        <th><!--#text312--></th>
+	       
+	        <th><!--#text313--></th>
+	       
+	        <th><!--#text314--></th>
+	       
+	        <th><!--#text315--></th>
+	        
+	        <th><!--#text316--></th>
+	       
+	        <th><!--#text317--></th>
+	       
+	        <th><!--#text318--></th>
+	       
+	        <th><!--#text319--></th>
+	       
+	        <th><!--#text320--></th>
+	        </tr>
+	        
+	        <tr>	       
+	        <th><!--#text321--></th>
+	       
+	        <th><!--#text322--></th>
+	       
+	        <th><!--#text323--></th>
+	       
+	        <th><!--#text324--></th>
+	       
+	        <th><!--#text325--></th>
+	       
+	        <th><!--#text326--></th>
+	       
+	        <th><!--#text327--></th>
+	       
+	        <th><!--#text328--></th>
+	       
+	        <th><!--#text329--></th>
+	       
+	        <th><!--#text330--></th>
+	        
+	        <th><!--#text331--></th>
+	       
+	        <th><!--#text332--></th>
+	       
+	        <th><!--#text333--></th>
+	       
+	        <th><!--#text334--></th>
+	       
+	        <th><!--#text335--></th>
+	       
+	        <th><!--#text336--></th>
+	       
+	        <th><!--#text337--></th>
+	       
+	        <th><!--#text338--></th>
+	       
+	        <th><!--#text339--></th>
+	       
+	        <th><!--#text340--></th>
+	       
+	        <th><!--#text341--></th>
+	       
+	        <th><!--#text342--></th>
+	       
+	        <th><!--#text343--></th>
+	       
+	        <th><!--#text344--></th>
+	       
+	        <th><!--#text345--></th>
+	        
+	        <th><!--#text346--></th>
+	       
+	        <th><!--#text347--></th>
+	       
+	        <th><!--#text348--></th>
+	       
+	        <th><!--#text349--></th>
+	       
+	        <th><!--#text350--></th>
+	       
+	        <th><!--#text351--></th>
+	       
+	        <th><!--#text352--></th>
+	        </tr>	 
+	        
+	        <tr>	       
+	        <th><!--#text353--></th>
+	       
+	        <th><!--#text354--></th>
+	       
+	        <th><!--#text355--></th>
+	       
+	        <th><!--#text356--></th>
+	       
+	        <th><!--#text357--></th>
+	       
+	        <th><!--#text358--></th>
+	       
+	        <th><!--#text359--></th>
+	       
+	        <th><!--#text360--></th>
+	       
+	        <th><!--#text361--></th>
+	       
+	        <th><!--#text362--></th>
+	        
+	        <th><!--#text363--></th>
+	       
+	        <th><!--#text364--></th>
+	       
+	        <th><!--#text365--></th>
+	       
+	        <th><!--#text366--></th>
+	       
+	        <th><!--#text367--></th>
+	       
+	        <th><!--#text368--></th>
+	       
+	        <th><!--#text369--></th>
+	       
+	        <th><!--#text370--></th>
+	       
+	        <th><!--#text371--></th>
+	       
+	        <th><!--#text372--></th>
+	       
+	        <th><!--#text373--></th>
+	       
+	        <th><!--#text374--></th>
+	       
+	        <th><!--#text375--></th>
+	       
+	        <th><!--#text376--></th>
+	       
+	        <th><!--#text377--></th>
+	        
+	        <th><!--#text378--></th>
+	       
+	        <th><!--#text379--></th>
+	       
+	        <th><!--#text380--></th>
+	       
+	        <th><!--#text381--></th>
+	       
+	        <th><!--#text382--></th>
+	       
+	        <th><!--#text383--></th>
+	       
+	        <th><!--#text384--></th>
+	        </tr>	   
+	        
+	        <tr>	       
+	        <th><!--#text385--></th>
+	       
+	        <th><!--#text386--></th>
+	       
+	        <th><!--#text387--></th>
+	       
+	        <th><!--#text388--></th>
+	       
+	        <th><!--#text389--></th>
+	       
+	        <th><!--#text390--></th>
+	       
+	        <th><!--#text391--></th>
+	       
+	        <th><!--#text392--></th>
+	       
+	        <th><!--#text393--></th>
+	       
+	        <th><!--#text394--></th>
+	        
+	        <th><!--#text395--></th>
+	       
+	        <th><!--#text396--></th>
+	       
+	        <th><!--#text397--></th>
+	       
+	        <th><!--#text398--></th>
+	       
+	        <th><!--#text399--></th>
+	       
+	        <th><!--#text400--></th>
+	       
+	        <th><!--#text401--></th>
+	       
+	        <th><!--#text402--></th>
+	       
+	        <th><!--#text403--></th>
+	       
+	        <th><!--#text404--></th>
+	       
+	        <th><!--#text405--></th>
+	       
+	        <th><!--#text406--></th>
+	       
+	        <th><!--#text407--></th>
+	       
+	        <th><!--#text408--></th>
+	       
+	        <th><!--#text409--></th>
+	        
+	        <th><!--#text410--></th>
+	       
+	        <th><!--#text411--></th>
+	       
+	        <th><!--#text412--></th>
+	       
+	        <th><!--#text413--></th>
+	       
+	        <th><!--#text414--></th>
+	       
+	        <th><!--#text415--></th>
+	       
+	        <th><!--#text416--></th>
+	        </tr>
+	        
+	        <tr>	       
+	        <th><!--#text417--></th>
+	       
+	        <th><!--#text418--></th>
+	       
+	        <th><!--#text419--></th>
+	       
+	        <th><!--#text420--></th>
+	       
+	        <th><!--#text421--></th>
+	       
+	        <th><!--#text422--></th>
+	       
+	        <th><!--#text423--></th>
+	       
+	        <th><!--#text424--></th>
+	       
+	        <th><!--#text425--></th>
+	       
+	        <th><!--#text426--></th>
+	        
+	        <th><!--#text427--></th>
+	       
+	        <th><!--#text428--></th>
+	       
+	        <th><!--#text429--></th>
+	       
+	        <th><!--#text430--></th>
+	       
+	        <th><!--#text431--></th>
+	       
+	        <th><!--#text432--></th>
+	       
+	        <th><!--#text433--></th>
+	       
+	        <th><!--#text434--></th>
+	       
+	        <th><!--#text435--></th>
+	       
+	        <th><!--#text436--></th>
+	       
+	        <th><!--#text437--></th>
+	       
+	        <th><!--#text438--></th>
+	       
+	        <th><!--#text439--></th>
+	       
+	        <th><!--#text440--></th>
+	       
+	        <th><!--#text441--></th>
+	        
+	        <th><!--#text442--></th>
+	       
+	        <th><!--#text443--></th>
+	       
+	        <th><!--#text444--></th>
+	       
+	        <th><!--#text445--></th>
+	       
+	        <th><!--#text446--></th>
+	       
+	        <th><!--#text447--></th>
+	       
+	        <th><!--#text448--></th>
+	        </tr>	 	      
+	        
+	        <tr>	       
+	        <th><!--#text449--></th>
+	       
+	        <th><!--#text450--></th>
+	       
+	        <th><!--#text451--></th>
+	       
+	        <th><!--#text452--></th>
+	       
+	        <th><!--#text453--></th>
+	       
+	        <th><!--#text454--></th>
+	       
+	        <th><!--#text455--></th>
+	       
+	        <th><!--#text456--></th>
+	       
+	        <th><!--#text457--></th>
+	       
+	        <th><!--#text458--></th>
+	        
+	        <th><!--#text459--></th>
+	       
+	        <th><!--#text460--></th>
+	       
+	        <th><!--#text461--></th>
+	       
+	        <th><!--#text462--></th>
+	       
+	        <th><!--#text463--></th>
+	       
+	        <th><!--#text464--></th>
+	       
+	        <th><!--#text465--></th>
+	       
+	        <th><!--#text466--></th>
+	       
+	        <th><!--#text467--></th>
+	       
+	        <th><!--#text468--></th>
+	       
+	        <th><!--#text469--></th>
+	       
+	        <th><!--#text470--></th>
+	       
+	        <th><!--#text471--></th>
+	       
+	        <th><!--#text472--></th>
+	       
+	        <th><!--#text473--></th>
+	        
+	        <th><!--#text474--></th>
+	       
+	        <th><!--#text475--></th>
+	       
+	        <th><!--#text476--></th>
+	       
+	        <th><!--#text477--></th>
+	       
+	        <th><!--#text478--></th>
+	       
+	        <th><!--#text479--></th>
+	       
+	        <th><!--#text480--></th>
+	        </tr>	 
+	        
+	        <tr>	       
+	        <th><!--#text481--></th>
+	       
+	        <th><!--#text482--></th>
+	       
+	        <th><!--#text483--></th>
+	       
+	        <th><!--#text484--></th>
+	       
+	        <th><!--#text485--></th>
+	       
+	        <th><!--#text486--></th>
+	       
+	        <th><!--#text487--></th>
+	       
+	        <th><!--#text488--></th>
+	       
+	        <th><!--#text489--></th>
+	       
+	        <th><!--#text490--></th>
+	        
+	        <th><!--#text491--></th>
+	       
+	        <th><!--#text492--></th>
+	       
+	        <th><!--#text493--></th>
+	       
+	        <th><!--#text494--></th>
+	       
+	        <th><!--#text495--></th>
+	       
+	        <th><!--#text496--></th>
+	       
+	        <th><!--#text497--></th>
+	       
+	        <th><!--#text498--></th>
+	       
+	        <th><!--#text499--></th>
+	       
+	        <th><!--#text500--></th>
+	       
+	        <th><!--#text501--></th>
+	       
+	        <th><!--#text502--></th>
+	       
+	        <th><!--#text503--></th>
+	       
+	        <th><!--#text504--></th>
+	       
+	        <th><!--#text505--></th>
+	        
+	        <th><!--#text506--></th>
+	       
+	        <th><!--#text507--></th>
+	       
+	        <th><!--#text508--></th>
+	       
+	        <th><!--#text509--></th>
+	       
+	        <th><!--#text510--></th>
+	       
+	        <th><!--#text511--></th>
+	       
+	        <th><!--#text512--></th>
+	        </tr>	 
+	        
+	        <tr>	       
+	        <th><!--#text513--></th>
+	       
+	        <th><!--#text514--></th>
+	       
+	        <th><!--#text515--></th>
+	       
+	        <th><!--#text516--></th>
+	       
+	        <th><!--#text517--></th>
+	       
+	        <th><!--#text518--></th>
+	       
+	        <th><!--#text519--></th>
+	       
+	        <th><!--#text520--></th>
+	       
+	        <th><!--#text521--></th>
+	       
+	        <th><!--#text522--></th>
+	        
+	        <th><!--#text523--></th>
+	       
+	        <th><!--#text524--></th>
+	       
+	        <th><!--#text525--></th>
+	       
+	        <th><!--#text526--></th>
+	       
+	        <th><!--#text527--></th>
+	       
+	        <th><!--#text528--></th>
+	       
+	        <th><!--#text529--></th>
+	       
+	        <th><!--#text530--></th>
+	       
+	        <th><!--#text531--></th>
+	       
+	        <th><!--#text532--></th>
+	       
+	        <th><!--#text533--></th>
+	       
+	        <th><!--#text534--></th>
+	       
+	        <th><!--#text535--></th>
+	       
+	        <th><!--#text536--></th>
+	       
+	        <th><!--#text537--></th>
+	        
+	        <th><!--#text538--></th>
+	       
+	        <th><!--#text539--></th>
+	       
+	        <th><!--#text540--></th>
+	       
+	        <th><!--#text541--></th>
+	       
+	        <th><!--#text542--></th>
+	       
+	        <th><!--#text543--></th>
+	       
+	        <th><!--#text544--></th>
+	        </tr>	 
+	        
+	        <tr>	       
+	        <th><!--#text545--></th>
+	       
+	        <th><!--#text546--></th>
+	       
+	        <th><!--#text547--></th>
+	       
+	        <th><!--#text548--></th>
+	       
+	        <th><!--#text549--></th>
+	       
+	        <th><!--#text550--></th>
+	       
+	        <th><!--#text551--></th>
+	       
+	        <th><!--#text552--></th>
+	       
+	        <th><!--#text553--></th>
+	       
+	        <th><!--#text554--></th>
+	        
+	        <th><!--#text555--></th>
+	       
+	        <th><!--#text556--></th>
+	       
+	        <th><!--#text557--></th>
+	       
+	        <th><!--#text558--></th>
+	       
+	        <th><!--#text559--></th>
+	       
+	        <th><!--#text560--></th>
+	       
+	        <th><!--#text561--></th>
+	       
+	        <th><!--#text562--></th>
+	       
+	        <th><!--#text563--></th>
+	       
+	        <th><!--#text564--></th>
+	       
+	        <th><!--#text565--></th>
+	       
+	        <th><!--#text566--></th>
+	       
+	        <th><!--#text567--></th>
+	       
+	        <th><!--#text568--></th>
+	       
+	        <th><!--#text569--></th>
+	        
+	        <th><!--#text570--></th>
+	       
+	        <th><!--#text571--></th>
+	       
+	        <th><!--#text572--></th>
+	       
+	        <th><!--#text573--></th>
+	       
+	        <th><!--#text574--></th>
+	       
+	        <th><!--#text575--></th>
+	       
+	        <th><!--#text576--></th>
+	        </tr>
+	        
+	        <tr>	       
+	        <th><!--#text577--></th>
+	       
+	        <th><!--#text578--></th>
+	       
+	        <th><!--#text579--></th>
+	       
+	        <th><!--#text580--></th>
+	       
+	        <th><!--#text581--></th>
+	       
+	        <th><!--#text582--></th>
+	       
+	        <th><!--#text583--></th>
+	       
+	        <th><!--#text584--></th>
+	       
+	        <th><!--#text585--></th>
+	       
+	        <th><!--#text586--></th>
+	        
+	        <th><!--#text587--></th>
+	       
+	        <th><!--#text588--></th>
+	       
+	        <th><!--#text589--></th>
+	       
+	        <th><!--#text590--></th>
+	       
+	        <th><!--#text591--></th>
+	       
+	        <th><!--#text592--></th>
+	       
+	        <th><!--#text593--></th>
+	       
+	        <th><!--#text594--></th>
+	       
+	        <th><!--#text595--></th>
+	       
+	        <th><!--#text596--></th>
+	       
+	        <th><!--#text597--></th>
+	       
+	        <th><!--#text598--></th>
+	       
+	        <th><!--#text599--></th>
+	       
+	        <th><!--#text600--></th>
+	       
+	        <th><!--#text601--></th>
+	        
+	        <th><!--#text602--></th>
+	       
+	        <th><!--#text603--></th>
+	       
+	        <th><!--#text604--></th>
+	       
+	        <th><!--#text605--></th>
+	       
+	        <th><!--#text606--></th>
+	       
+	        <th><!--#text607--></th>
+	       
+	        <th><!--#text608--></th>
+	        </tr>
+	        
+	        <tr>	       
+	        <th><!--#text609--></th>
+	       
+	        <th><!--#text610--></th>
+	       
+	        <th><!--#text611--></th>
+	       
+	        <th><!--#text612--></th>
+	       
+	        <th><!--#text613--></th>
+	       
+	        <th><!--#text614--></th>
+	       
+	        <th><!--#text615--></th>
+	       
+	        <th><!--#text616--></th>
+	       
+	        <th><!--#text617--></th>
+	       
+	        <th><!--#text618--></th>
+	        
+	        <th><!--#text619--></th>
+	       
+	        <th><!--#text620--></th>
+	       
+	        <th><!--#text621--></th>
+	       
+	        <th><!--#text622--></th>
+	       
+	        <th><!--#text623--></th>
+	       
+	        <th><!--#text624--></th>
+	       
+	        <th><!--#text625--></th>
+	       
+	        <th><!--#text626--></th>
+	       
+	        <th><!--#text627--></th>
+	       
+	        <th><!--#text628--></th>
+	       
+	        <th><!--#text629--></th>
+	       
+	        <th><!--#text630--></th>
+	       
+	        <th><!--#text631--></th>
+	       
+	        <th><!--#text632--></th>
+	       
+	        <th><!--#text633--></th>
+	        
+	        <th><!--#text634--></th>
+	       
+	        <th><!--#text635--></th>
+	       
+	        <th><!--#text636--></th>
+	       
+	        <th><!--#text637--></th>
+	       
+	        <th><!--#text638--></th>
+	       
+	        <th><!--#text639--></th>
+	       
+	        <th><!--#text640--></th>
+	        </tr>
+	        
+	        <tr>	       
+	        <th><!--#text641--></th>
+	       
+	        <th><!--#text642--></th>
+	       
+	        <th><!--#text643--></th>
+	       
+	        <th><!--#text644--></th>
+	       
+	        <th><!--#text645--></th>
+	       
+	        <th><!--#text646--></th>
+	       
+	        <th><!--#text647--></th>
+	       
+	        <th><!--#text648--></th>
+	       
+	        <th><!--#text649--></th>
+	       
+	        <th><!--#text650--></th>
+	        
+	        <th><!--#text651--></th>
+	       
+	        <th><!--#text652--></th>
+	       
+	        <th><!--#text653--></th>
+	       
+	        <th><!--#text654--></th>
+	       
+	        <th><!--#text655--></th>
+	       
+	        <th><!--#text656--></th>
+	       
+	        <th><!--#text657--></th>
+	       
+	        <th><!--#text658--></th>
+	       
+	        <th><!--#text659--></th>
+	       
+	        <th><!--#text660--></th>
+	       
+	        <th><!--#text661--></th>
+	       
+	        <th><!--#text662--></th>
+	       
+	        <th><!--#text663--></th>
+	       
+	        <th><!--#text664--></th>
+	       
+	        <th><!--#text665--></th>
+	        
+	        <th><!--#text666--></th>
+	       
+	        <th><!--#text667--></th>
+	       
+	        <th><!--#text668--></th>
+	       
+	        <th><!--#text669--></th>
+	       
+	        <th><!--#text670--></th>
+	       
+	        <th><!--#text671--></th>
+	       
+	        <th><!--#text672--></th>
+	        </tr>	
+	        
+	        <tr>	       
+	        <th><!--#text673--></th>
+	       
+	        <th><!--#text674--></th>
+	       
+	        <th><!--#text675--></th>
+	       
+	        <th><!--#text676--></th>
+	       
+	        <th><!--#text677--></th>
+	       
+	        <th><!--#text678--></th>
+	       
+	        <th><!--#text679--></th>
+	       
+	        <th><!--#text680--></th>
+	       
+	        <th><!--#text681--></th>
+	       
+	        <th><!--#text682--></th>
+	        
+	        <th><!--#text683--></th>
+	       
+	        <th><!--#text684--></th>
+	       
+	        <th><!--#text685--></th>
+	       
+	        <th><!--#text686--></th>
+	       
+	        <th><!--#text687--></th>
+	       
+	        <th><!--#text688--></th>
+	       
+	        <th><!--#text689--></th>
+	       
+	        <th><!--#text690--></th>
+	       
+	        <th><!--#text691--></th>
+	       
+	        <th><!--#text692--></th>
+	       
+	        <th><!--#text693--></th>
+	       
+	        <th><!--#text694--></th>
+	       
+	        <th><!--#text695--></th>
+	       
+	        <th><!--#text696--></th>
+	       
+	        <th><!--#text697--></th>
+	        
+	        <th><!--#text698--></th>
+	       
+	        <th><!--#text699--></th>
+	       
+	        <th><!--#text700--></th>
+	       
+	        <th><!--#text701--></th>
+	       
+	        <th><!--#text702--></th>
+	       
+	        <th><!--#text703--></th>
+	       
+	        <th><!--#text704--></th>
+	        </tr>		 
+	        
+	        <tr>	       
+	        <th><!--#text705--></th>
+	       
+	        <th><!--#text706--></th>
+	       
+	        <th><!--#text707--></th>
+	       
+	        <th><!--#text708--></th>
+	       
+	        <th><!--#text709--></th>
+	       
+	        <th><!--#text710--></th>
+	       
+	        <th><!--#text711--></th>
+	       
+	        <th><!--#text712--></th>
+	       
+	        <th><!--#text713--></th>
+	       
+	        <th><!--#text714--></th>
+	        
+	        <th><!--#text715--></th>
+	       
+	        <th><!--#text716--></th>
+	       
+	        <th><!--#text717--></th>
+	       
+	        <th><!--#text718--></th>
+	       
+	        <th><!--#text719--></th>
+	       
+	        <th><!--#text720--></th>
+	       
+	        <th><!--#text721--></th>
+	       
+	        <th><!--#text722--></th>
+	       
+	        <th><!--#text723--></th>
+	       
+	        <th><!--#text724--></th>
+	       
+	        <th><!--#text725--></th>
+	       
+	        <th><!--#text726--></th>
+	       
+	        <th><!--#text727--></th>
+	       
+	        <th><!--#text728--></th>
+	       
+	        <th><!--#text729--></th>
+	        
+	        <th><!--#text730--></th>
+	       
+	        <th><!--#text731--></th>
+	       
+	        <th><!--#text732--></th>
+	       
+	        <th><!--#text733--></th>
+	       
+	        <th><!--#text734--></th>
+	       
+	        <th><!--#text735--></th>
+	       
+	        <th><!--#text736--></th>
+	        </tr>	
+	        
+	        <tr>	       
+	        <th><!--#text737--></th>
+	       
+	        <th><!--#text738--></th>
+	       
+	        <th><!--#text739--></th>
+	       
+	        <th><!--#text740--></th>
+	       
+	        <th><!--#text741--></th>
+	       
+	        <th><!--#text742--></th>
+	       
+	        <th><!--#text743--></th>
+	       
+	        <th><!--#text744--></th>
+	       
+	        <th><!--#text745--></th>
+	       
+	        <th><!--#text746--></th>
+	        
+	        <th><!--#text747--></th>
+	       
+	        <th><!--#text748--></th>
+	       
+	        <th><!--#text749--></th>
+	       
+	        <th><!--#text750--></th>
+	       
+	        <th><!--#text751--></th>
+	       
+	        <th><!--#text752--></th>
+	       
+	        <th><!--#text753--></th>
+	       
+	        <th><!--#text754--></th>
+	       
+	        <th><!--#text755--></th>
+	       
+	        <th><!--#text756--></th>
+	       
+	        <th><!--#text757--></th>
+	       
+	        <th><!--#text758--></th>
+	       
+	        <th><!--#text759--></th>
+	       
+	        <th><!--#text760--></th>
+	       
+	        <th><!--#text761--></th>
+	        
+	        <th><!--#text762--></th>
+	       
+	        <th><!--#text763--></th>
+	       
+	        <th><!--#text764--></th>
+	       
+	        <th><!--#text765--></th>
+	       
+	        <th><!--#text766--></th>
+	       
+	        <th><!--#text767--></th>
+	       
+	        <th><!--#text768--></th>
+	        </tr>	
+	 
+	   </table>
+      
+</body>
+</html>
+
